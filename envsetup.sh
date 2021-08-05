@@ -668,14 +668,14 @@ function lunch()
         cd $T > /dev/null
         vendor/lineage/build/tools/roomservice.py $product
         cd - > /dev/null
-        build/envsetup.sh
+        source build/envsetup.sh
         check_product $product
     else
         T=$(gettop)
         cd $T > /dev/null
         vendor/lineage/build/tools/roomservice.py $product true
         cd - > /dev/null
-        build/envsetup.sh
+        source build/envsetup.sh
     fi
 
     TARGET_PRODUCT=$product \
