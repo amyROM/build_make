@@ -28,8 +28,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGE_OVERLAYS := device/generic/goldfish/overlay
 
-PRODUCT_CHARACTERISTICS := emulator
-
 PRODUCT_FULL_TREBLE_OVERRIDE := true
 
 # goldfish vendor partition configurations
